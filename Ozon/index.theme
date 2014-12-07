@@ -22,68 +22,76 @@ Type=Fixed
 [48x48/apps]
 Size=48
 Context=Applications
-Type=Fixed
+Type=Scalable
+MinSize=48
+MaxSize=256
 
 [48x48/devices]
 Size=48
 Context=Devices
-Type=Fixed
+Type=Scalable
+MinSize=48
+MaxSize=256
 
 [48x48/mimetypes]
 Size=48
 Context=MimeTypes
-Type=Fixed
+Type=Scalable
+MinSize=24
+MaxSize=256
 
 [48x48/places]
 Size=48
 Context=Places
-Type=Fixed
+Type=Scalable
+MinSize=24
+MaxSize=256
 
 [scalable/actions]
 Size=16
-MinSize=16
-MaxSize=256
+MinSize=8
+MaxSize=512
 Context=Actions
 Type=Scalable
 
 [scalable/apps]
 Size=16
-MinSize=16
-MaxSize=256
+MinSize=8
+MaxSize=512
 Context=Applications
 Type=Scalable
 
 [scalable/categories]
 Size=16
-MinSize=16
-MaxSize=256
+MinSize=8
+MaxSize=512
 Context=Categories
 Type=Scalable
 
 [scalable/devices]
 Size=16
-MinSize=16
-MaxSize=256
+MinSize=8
+MaxSize=512
 Context=Devices
 Type=Scalable
 
 [scalable/emblems]
 Size=16
-MinSize=16
-MaxSize=256
+MinSize=8
+MaxSize=512
 Context=Emblems
 Type=Scalable
 
 [scalable/places]
 Size=16
-MinSize=16
-MaxSize=256
+MinSize=8
+MaxSize=512
 Context=Places
 Type=Scalable
 
 [scalable/status]
 Size=16
-MinSize=16
-MaxSize=256
+MinSize=8
+MaxSize=512
 Context=Status
 Type=Scalable
